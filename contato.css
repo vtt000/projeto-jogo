@@ -1,18 +1,41 @@
-body{
+body {
     background-color: black;
-    color: blueviolet;
-    border-style: solid;
-    border-color:  blueviolet;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 57vw;
-    border-left: 20px solid blueviolet;
-    border-right: 20px solid blueviolet;
-    padding: 20px;
-    background-image: url( "img/pexels-philippe-donn-1169754.jpg" );
-    height: 50vw;
+    background-image: url("img/pexels-philippe-donn-1169754.jpg");
     background-size: cover;
-}
-.insta{
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  
+    padding: 20px;
+    border-left: 20px solid rgb(78, 3, 3);
+    border-right: 20px solid rgb(78, 3, 3);
+    min-height: 100vh;
+  }
+  
+  .insta {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-}
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+  }
+  
+  footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  footer img {
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  footer img:hover {
+    transform: scale(1.1);
+  }
+  

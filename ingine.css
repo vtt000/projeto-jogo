@@ -1,23 +1,27 @@
-body{
-    color:  blueviolet;
+body {
+    color: rgb(78, 3, 3);
     background-color: black;
-    height: 57vw;
-    border-left: 20px solid blueviolet;
-    border-right: 20px solid blueviolet;
+    border-left: 20px solid rgb(78, 3, 3);
+    border-right: 20px solid rgb(78, 3, 3);
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url( "img/pexels-philippe-donn-1169754.jpg" );
-    height: 50vw;
+    background-image: url("img/pexels-philippe-donn-1169754.jpg");
     background-size: cover;
-}
-.construct{
+    background-position: center;
+    min-height: 100vh;
+  }
+  
+  .construct {
     color: white;
-}
-.ex{
+  }
+  
+  .ex {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
-}
-.game{
+  }
+  
+  .game {
     margin: 20px;
-}
+  }
+  
