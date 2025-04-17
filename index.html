@@ -10,14 +10,14 @@
 
   <header>
     <div class="center">
-      <img src="./img/foguete.jpg" alt="foguete" />
+      <img src="c:\Users\Vitto\Favorites\Links\Primeiro-Projeto-main\Primeiro-Projeto-main\img\foguete.jpg" alt="foguete" />
       <h1>Jogo do VTT</h1>
     </div>
   </header>
 
   <nav>
     <ul>
-      <li><a href="ingine.html">Sobre o jogo</a></li>
+      <li><a href="sobreojogo.html">Sobre o jogo</a></li>
       <li><a href="ingine.html">Engine</a></li>
       <li><a href="contact.html">Contato</a></li>
     </ul>
@@ -38,9 +38,9 @@
 
       <h3 class="gamepic">Fotos do Game:</h3>
       <div class="fotojogo">
-        <img src="./img/game.jpg" alt="game" height="400" width="200" />
-        <img src="./img/game-over.jpg" alt="game over" height="400" width="200" />
-        <img src="./img/explosao.jpg" alt="explosao" height="400" width="200" />
+        <img src="c:\Users\Vitto\Favorites\Links\Primeiro-Projeto-main\Primeiro-Projeto-main\imagens jogo\game.jpg" alt="game" height="400" width="200" />
+        <img src="c:\Users\Vitto\Favorites\Links\Primeiro-Projeto-main\Primeiro-Projeto-main\imagens jogo\game over.jpg" alt="game over" height="400" width="200" />
+        <img src="c:\Users\Vitto\Favorites\Links\Primeiro-Projeto-main\Primeiro-Projeto-main\imagens jogo\explosao.jpg" alt="explosao" height="400" width="200" />
       </div>
 
       <h1>Game:</h1>
@@ -49,6 +49,13 @@
       </div>
     </section>
   </main>
-
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const iframe = document.querySelector(".frame iframe");
+      iframe.addEventListener("load", function () {
+        console.log("O jogo foi carregado com sucesso!");
+      });
+    });
+  </script>
 </body>
 </html>
